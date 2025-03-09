@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn from varsity</title>
+    <!-- CDN Daisy UI -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@5"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- code highlight -->
+     <!-- Link to Prism CSS (for styles) -->
+
+
+<!-- Link to Prism JS (for functionality) -->
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.27.0/prism.min.js"></script>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+    
+    <script>
+      hljs.highlightAll();
+    </script>
+    <style>
+      /* Apply font size to all elements within the sidebar */
+      .sideBar * {
+        font-size: 16px !important; /* Use !important to force the style */
+      }
+      .sideBar ul{
+        width: 115% !important;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="bg-[#F7F7F7]">
+      
+      <div class="py-4 px-10 bg-[#d8e2dc] flex justify-between items-center">
+        <!-- Left Section: Logos -->
+        <div class="flex gap-6 items-center">
+          <img class="h-12 rounded-full" src="images/cse-club.png" alt="CSE Club Logo">
+          <img class="h-16" src="images/gumsbanner.png" alt=" Banner">
+        </div>
+        
+        <!-- Title Section -->
+        <h1 class="text-3xl font-bold text-center text-[#00296b]">
+          My University Programming Journey
+        </h1>
+      
+        <!-- Right Section: Profile and Social Icons -->
+        <div class="flex items-center gap-4">
+          <img class="w-14 h-14 rounded-full border-2 border-gray-700 p-1" src="images/dev.png" alt="Developer Profile Picture">
+          <div class="text-left space-y-1">
+            <p class="font-semibold text-xl text-[#00296b]">Muhammad Abu Yusuf Nayeem</p>
+            <p class="flex gap-5 items-center">
+              <a href="#" aria-label="GitHub">
+                <img class="h-6" src="icons/git.png" alt="GitHub Icon">
+              </a>
+              <a href="#" aria-label="LeetCode">
+                <img class="h-6 bg-black rounded-full" src="icons/LeetCode.png" alt="LeetCode Icon">
+              </a>
+              <a href="#" aria-label="LinkedIn">
+                <img class="h-6" src="icons/linkedin.png" alt="LinkedIn Icon">
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+      
+      <section class="flex">
+        <div class="sideBar w-[50%] sticky top-0 h-screen v-screen overflow-y-auto  text-[16px]">
+          <ul class="menu menu-xs  rounded-box max-w-xs w-full">
+            <li>
+              <a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="h-4 w-4"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"
+                  />
+                </svg>
+                resume.pdf
+              </a>
+            </li>
+            <li>
+              <details open>
+                <summary>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    stroke-width="1.5"
+                    stroke="currentColor"
+                    class="h-4 w-4"
+                  >
+                    <path
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      d="M2.25 12.75V12A2.25 2.25 0 014.5 9.75h15A2.25 2.25 0 0121.75 12v.75m-8.69-6.44l-2.12-2.12a1.5 1.5 0 00-1.061-.44H4.5A2.25 2.25 0 002.25 6v12a2.25 2.25 0 002.25 2.25h15A2.25 2.25 0 0021.75 18V9a2.25 2.25 0 00-2.25-2.25h-5.379a1.5 1.5 0 01-1.06-.44z"
+                    />
+                  </svg>
+                  Programming Basics & Algorithms
+                </summary>
+                <ul>
+                  <li>
+                    <details open>
+                      <summary class="font-bold text-[#EB5B00]">
+                        <img
+                          
+                          width="25"
+                          src="https://img.icons8.com/fluency-systems-filled/48/c-drive-2.png"
+                          alt="c-drive-2"
+                        />
+                        c-programming
+                      </summary>
+                      <ul>
+                        <li>
+                          <details open>
+                            <summary class="font-bold text-[#009990]">
+                              <img
+                                width="16"
+                                src="https://img.icons8.com/wired/64/documents.png"
+                                alt="documents"
+                              />
+                              Basic Input/Output Programs
+                            </summary>
+                            <ul class="text-[#18230F]">
+                              <li>
+                                <a>
+                                  <img
+                                    width="16"
+                                    src="https://img.icons8.com/fluency-systems-filled/48/source-code.png"
+                                    alt="source-code"
+                                  />
+                                  C "Hello, World!" Program
+                                </a>
+                              </li>
+                              <li>
+                                <a>
+                                  <img
+                                    width="16"
+                                    src="https://img.icons8.com/fluency-systems-filled/48/source-code.png"
+                                    alt="source-code"
+                                  />
+                                  C Program to Print an Integer (Entered by the
+                                  User)
+                                </a>
+                              </li>
+                              <li>
+                                <a>
+                                  <img
+                                    width="16"
+                                    src="https://img.icons8.com/fluency-systems-filled/48/source-code.png"
+                                    alt="source-code"
+                                  />
+                                  C Program to Add Two Integers
+                                </a>
+                              </li>
+                              <li>
+                                <a>
+                                  <img
+                                    width="16"
+                                    src="https://img.icons8.com/fluency-systems-filled/48/source-code.png"
+                                    alt="source-code"
+                                  />
+                                  C Program to Multiply Two Floating-Point
+                                  Numbers
+                                </a>
+                              </li>
+                              <li>
+                                <a>
+                                  <img
+                                    width="16"
+                                    src="https://img.icons8.com/fluency-systems-filled/48/source-code.png"
+                                    alt="source-code"
+                                  />
+                                  C Program to Find ASCII Value of a Character
+                                </a>
+                              </li>
+                              <li>
+                                <a>
+                                  <img
+                                    width="16"
+                                    src="https://img.icons8.com/fluency-systems-filled/48/source-code.png"
+                                    alt="source-code"
+                                  />
+                                  C Program to Compute Quotient and Remainder
+                                </a>
+                              </li>
+                            </ul>
+                          </details>
+                        </li>
+                      </ul>
+                    </details>
+                  </li>
+                  <li>
+                    <details open>
+                      <summary class="font-bold text-[#EB5B00]">
+                        <img
+                          
+                          width="25"
+                          src="https://img.icons8.com/fluency-systems-filled/48/c-drive-2.png"
+                          alt="c-drive-2"
+                        />
+                        c-programming
+                      </summary>
+                      <ul>
+                        <li>
+                          <details open>
+                            <summary class="font-bold text-[#009990]">
+                              <img
+                                width="16"
+                                src="https://img.icons8.com/wired/64/documents.png"
+                                alt="documents"
+                              />
+                              Basic Input/Output Programs
+                            </summary>
+                            <ul class="text-[#18230F]">
+                              <li>
+                                <a>
+                                  <img
+                                    width="16"
+                                    src="https://img.icons8.com/fluency-systems-filled/48/source-code.png"
+                                    alt="source-code"
+                                  />
+                                  C "Hello, World!" Program
+                                </a>
+                              </li>
+                              <li>
+                                <a>
+                                  <img
+                                    width="16"
+                                    src="https://img.icons8.com/fluency-systems-filled/48/source-code.png"
+                                    alt="source-code"
+                                  />
+                                  C Program to Print an Integer (Entered by the
+                                  User)
+                                </a>
+                              </li>
+                              <li>
+                                <a>
+                                  <img
+                                    width="16"
+                                    src="https://img.icons8.com/fluency-systems-filled/48/source-code.png"
+                                    alt="source-code"
+                                  />
+                                  C Program to Add Two Integers
+                                </a>
+                              </li>
+                              <li>
+                                <a>
+                                  <img
+                                    width="16"
+                                    src="https://img.icons8.com/fluency-systems-filled/48/source-code.png"
+                                    alt="source-code"
+                                  />
+                                  C Program to Multiply Two Floating-Point
+                                  Numbers
+                                </a>
+                              </li>
+                              <li>
+                                <a>
+                                  <img
+                                    width="16"
+                                    src="https://img.icons8.com/fluency-systems-filled/48/source-code.png"
+                                    alt="source-code"
+                                  />
+                                  C Program to Find ASCII Value of a Character
+                                </a>
+                              </li>
+                              <li>
+                                <a>
+                                  <img
+                                    width="16"
+                                    src="https://img.icons8.com/fluency-systems-filled/48/source-code.png"
+                                    alt="source-code"
+                                  />
+                                  C Program to Compute Quotient and Remainder
+                                </a>
+                              </li>
+                            </ul>
+                          </details>
+                        </li>
+                      </ul>
+                    </details>
+                  </li>
+                  <li>
+                    <details open>
+                      <summary class="font-bold text-[#EB5B00]">
+                        <img
+                          
+                          width="25"
+                          src="https://img.icons8.com/fluency-systems-filled/48/c-drive-2.png"
+                          alt="c-drive-2"
+                        />
+                        c-programming
+                      </summary>
+                      <ul>
+                        <li>
+                          <details open>
+                            <summary class="font-bold text-[#009990]">
+                              <img
+                                width="16"
+                                src="https://img.icons8.com/wired/64/documents.png"
+                                alt="documents"
+                              />
+                              Basic Input/Output Programs
+                            </summary>
+                            <ul class="text-[#18230F]">
+                              <li>
+                                <a>
+                                  <img
+                                    width="16"
+                                    src="https://img.icons8.com/fluency-systems-filled/48/source-code.png"
+                                    alt="source-code"
+                                  />
+                                  C "Hello, World!" Program
+                                </a>
+                              </li>
+                              <li>
+                                <a>
+                                  <img
+                                    width="16"
+                                    src="https://img.icons8.com/fluency-systems-filled/48/source-code.png"
+                                    alt="source-code"
+                                  />
+                                  C Program to Print an Integer (Entered by the
+                                  User)
+                                </a>
+                              </li>
+                              <li>
+                                <a>
+                                  <img
+                                    width="16"
+                                    src="https://img.icons8.com/fluency-systems-filled/48/source-code.png"
+                                    alt="source-code"
+                                  />
+                                  C Program to Add Two Integers
+                                </a>
+                              </li>
+                              <li>
+                                <a>
+                                  <img
+                                    width="16"
+                                    src="https://img.icons8.com/fluency-systems-filled/48/source-code.png"
+                                    alt="source-code"
+                                  />
+                                  C Program to Multiply Two Floating-Point
+                                  Numbers
+                                </a>
+                              </li>
+                              <li>
+                                <a>
+                                  <img
+                                    width="16"
+                                    src="https://img.icons8.com/fluency-systems-filled/48/source-code.png"
+                                    alt="source-code"
+                                  />
+                                  C Program to Find ASCII Value of a Character
+                                </a>
+                              </li>
+                              <li>
+                                <a>
+                                  <img
+                                    width="16"
+                                    src="https://img.icons8.com/fluency-systems-filled/48/source-code.png"
+                                    alt="source-code"
+                                  />
+                                  C Program to Compute Quotient and Remainder
+                                </a>
+                              </li>
+                            </ul>
+                          </details>
+                        </li>
+                      </ul>
+                    </details>
+                  </li>
+                  
+                </ul>
+              </details>
+            </li>
+            <li>
+              <a>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke-width="1.5"
+                  stroke="currentColor"
+                  class="h-4 w-4"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    d="M19.5 14.25v-2.625a3.375 3.375 0 00-3.375-3.375h-1.5A1.125 1.125 0 0113.5 7.125v-1.5a3.375 3.375 0 00-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 00-9-9z"
+                  />
+                </svg>
+                reports-final-2.pdf
+              </a>
+            </li>
+          </ul>
+        </div>
+        <div class="mainContainer px-4 w-full">
+          <!-- Program  Section  Start -->
+          <!-- First C Program -->
+          <div class="ProgramSectionStart w-full py-4">
+            <h2 class="Heading font-bold text-[#25265e] text-2xl">First C Program</h2>
+            <pre class="">
+                <code class="rounded text-[15px]">
+  #include <stdio.h>
+    int main() {   
+        printf("Hello, World!");
+        return 0;
+    }
+                </code>
+            </pre>
+            <hr class="pt-2 w-full text-gray-500 drop-shadow ">
+          </div>
+
+          <!-- Program  Section  Start -->
+          <!-- First C Program -->
+          <div class="ProgramSectionStart w-full py-4">
+            <h2 class="Heading font-bold text-[#25265e] text-2xl">C Comments</h2>
+            <pre class="">
+                <code class="rounded text-[15px]">
+  #include <stdio.h>
+    int main() { 
+      // print Hello World to the screen
+      printf("Hello World");
+      return 0;
+    }
+                </code>
+            </pre>
+            <hr class="pt-2 w-full text-gray-500 drop-shadow ">
+          </div>
+
+
+
+          <!-- C Variables, Constants and Literals -->
+          <div class="ProgramSectionStart w-full py-4">
+            <h2 class="Heading font-bold text-[#25265e] text-2xl">C Variables, Constants and Literals</h2>
+            <pre class="">
+                <code class="rounded text-[15px]">
+  int age = 25;
+
+  char ch = 'a';
+
+  // some code
+  ch = 'l';
+
+  const double PI = 3.14;
+
+  //PI is a symbolic constant; its value cannot be changed.
+  const double PI = 3.14;
+  PI = 2.9; //Error
+                </code>
+            </pre>
+            <hr class="pt-2 w-full text-gray-500 drop-shadow ">
+          </div>
+
+
+          <!-- First C Program -->
+          <div class="ProgramSectionStart w-full py-4">
+            <h2 class="Heading font-bold text-[#25265e] text-2xl">title</h2>
+            <pre class="">
+                <code class="rounded text-[15px]">
+
+                </code>
+            </pre>
+            <hr class="pt-2 w-full text-gray-500 drop-shadow ">
+          </div>
+
+
+          <!-- First C Program -->
+          <div class="ProgramSectionStart w-full py-4">
+            <h2 class="Heading font-bold text-[#25265e] text-2xl">title</h2>
+            <pre class="">
+                <code class="rounded text-[15px]">
+
+                </code>
+            </pre>
+            <hr class="pt-2 w-full text-gray-500 drop-shadow ">
+          </div>
+
+
+
+
+
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
